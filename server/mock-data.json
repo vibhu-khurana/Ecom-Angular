@@ -1,0 +1,359 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "The Cube Club Rubber Coated Hex Dumbbells for Men & Women for Home Workout (2.5kg, 5kg, 7.5kg)",
+      "image": "../../assets/products/db_p1.jpg",
+      "productDesc": "Made from the best materials which prevents from bending or breaking even after long term use.Hexagon shaped design which prevents it from rolling and also comes with chrome handle for a more comfortable grip.",
+      "mrp": 2999,
+      "bestSeller": false,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "fitness",
+        "dumbbells",
+        "dumbbell",
+        "home",
+        "gym",
+        "black",
+        "hex",
+        "hex dumbbells",
+        "rubber",
+        "hexagon dumbbells",
+        "2.5Kg",
+        "5Kg",
+        "7.5Kg",
+        "strength"
+      ],
+      "quantity": 6
+    },
+    {
+      "id": 2,
+      "productName": "Neoprene Dumbbell Pair, 2 x 2Kg",
+      "image": "../../assets/products/db_p2.jpg",
+      "productDesc": "Set of 2 dumbbells for resistance training; each dumbbell weighs 2 Kg. Easy-grip neoprene coating for a secure hold.",
+      "mrp": 1199,
+      "bestSeller": true,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "fitness",
+        "dumbbells",
+        "dumbbells",
+        "heoprene",
+        "neoprene dumbbell",
+        "home",
+        "gym",
+        "rubber",
+        "hexagon dumbbells",
+        "hex dumbbells",
+        "2kg",
+        "strength"
+      ],
+      "quantity": 0
+    },
+    {
+      "id": 3,
+      "productName": "Vinyl Dumbbells",
+      "image": "../../assets/products/db_p3.jpg",
+      "productDesc": "Set of 2 dumbbells - 5 Pounds each (2.27 KGS). Steel dumbbell with colorful vinyl exterior coating for a strong, non-slip grip",
+      "mrp": 1529,
+      "bestSeller": false,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "fitness",
+        "dumbbells",
+        "gym workouts",
+        "home workouts",
+        "home",
+        "gym",
+        "vinyl",
+        "vinyl dumbbells",
+        "steel",
+        "steel dumbbell",
+        "hexagon dumbbells",
+        "2.27Kg",
+        "2.5Kg",
+        "5Kg",
+        "strength"
+      ],
+      "quantity": 12
+    },
+    {
+      "id": 4,
+      "productName": "Klikfit Rubber Dumbbells, (Black)",
+      "image": "../../assets/products/db_p4.jpg",
+      "productDesc": "Included Components: Two 7.5kg rubber coated round dumbbells. Build strength, burn fat, and create a shapely body with Klikfit. The round heads are perfect for doing overhead triceps extensions with plenty of surface area to comfortably place your hands underneath and other dumbbell workouts",
+      "mrp": 2999,
+      "bestSeller": true,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "fitness",
+        "dumbbells",
+        "klikfit",
+        "klikfit dumbbells",
+        "strength",
+        "round dumbells",
+        "round",
+        "home workouts",
+        "triceps",
+        "home",
+        "gym",
+        "black",
+        "rubber",
+        "7.5Kg",
+        "strength"
+      ],
+      "quantity": 0
+    },
+    {
+      "id": 5,
+      "productName": "Bodygrip 3KG HMEGYM Dumbbell, 3Kg Set of 2 (Blue)",
+      "image": "../../assets/products/db_p5.jpg",
+      "productDesc": "Bodygrip 3kg home gym set. A combination of all gym equipments for the perfect workout",
+      "mrp": 424,
+      "bestSeller": false,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "fitness",
+        "dumbbells",
+        "dumbbell",
+        "home",
+        "gym",
+        "blue",
+        "bodygrip",
+        "home workouts",
+        "home",
+        "gym",
+        "rubber",
+        "round",
+        "round dumbbells",
+        "3Kg",
+        "strength"
+      ],
+      "quantity": 2
+    },
+    {
+      "id": 6,
+      "productName": "VCORE FITNESS Hex Dumbbell 5Kg Single Dumbbell, Ideal for Home Gym Dumbbells Exercise for Men & Women, Cast Iron Rubber Encased, Black",
+      "image": "../../assets/products/db_p6.jpg",
+      "productDesc": "PUMP CAST IRON DUMBBELL, STRONG HOLD NON-SLIP GRIP HANDLE, Hexagonal Dumbbell",
+      "mrp": 1149,
+      "bestSeller": false,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "dumbbells",
+        "dumbbells",
+        "VCORE",
+        "fitness",
+        "home workouts",
+        "home",
+        "gym",
+        "black",
+        "rubber",
+        "hexagon dumbbells",
+        "hex",
+        "5Kg",
+        "strength"
+      ],
+      "quantity": 10
+    },
+    {
+      "id": 7,
+      "productName": "FITSY 15 Kg Adjustable Dumbbell Set - Chrome Plated Iron Dumbbell Combo for Home Gym Workout (AR2057)",
+      "image": "../../assets/products/db_p7.jpg",
+      "productDesc": "ADJUSTABLE WEIGHTS, DURABLE CONSTRUCTION, ANTI SLIP RUBBERIZED GRIP, HUMANISTIC DESIGN",
+      "mrp": 4999,
+      "bestSeller": true,
+      "category": {
+        "id": 3,
+        "categoryName": "Strength Gears",
+        "subCategory": "Dumbbells"
+      },
+      "tags": [
+        "fitness",
+        "dumbbells",
+        "dumbbell",
+        "home",
+        "gym",
+        "black",
+        "iron",
+        "15Kg",
+        "adjustable dumbbell"
+      ],
+      "quantity": 2
+    },
+    {
+      "id": 8,
+      "productName": "Feroc Aluminium Badminton-Racket, Set of 2 with Feather Shuttles, 3 Pieces with Full-Cover",
+      "image": "../../assets/products/bd_p1.jpg",
+      "productDesc": "For Beginners and Intermediate Players.Contains: Pack of 2 badminton Rackets, 1 badminton cover + 1 Feather Shuttle box (Pack of 3) Aluminium frame Material Aluminium",
+      "mrp": 599,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Badminton"
+      },
+      "tags": [
+        "fitness",
+        "badminton",
+        "rackets",
+        "racket",
+        "shuttle",
+        "feather shuttle",
+        "home",
+        "outdoor",
+        "aluminium",
+        "feroc",
+        "badminton cover",
+        "sports",
+        "cocks"
+      ],
+      "quantity": 11
+    },
+    {
+      "id": 9,
+      "productName": "Yonex Mavis 10 Nylon 6 Shuttlecocks",
+      "image": "../../assets/products/bd_p2.jpg",
+      "productDesc": "Developed using the flight timing of feather shuttlecocks, Mavis Nylon shuttlecocks are precision designed and manufactured to provide accurate flight performance. When smashed, a Mavis shuttlecock recovers in only 0.02 seconds. This performance is just 0.005 seconds slower than a Yonex Feather shuttlecock and 0.08 seconds faster than the recovery of an ordinary shuttlecock.",
+      "mrp": 549,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Badminton"
+      },
+      "tags": [
+        "fitness",
+        "badminton",
+        "cocks",
+        "shuttle",
+        "feather shuttle",
+        "outdoor",
+        "home",
+        "yonex mavis",
+        "nylon shuttlecocks",
+        "sports"
+      ],
+      "quantity": 6
+    },
+    {
+      "id": 10,
+      "productName": "Li-Ning XP-70-IV Strung Badminton Racquet ( BLACK/GOLD , S2 , 90-95 grams , 18-20 lbs )",
+      "image": "../../assets/products/bd_p3.jpg",
+      "productDesc": "Grip Size : S2 (3.25 Inches)| Weight : W4 (90-95 grams), Color : BLACK/GOLD | Head Shape : Oval, String Level : 18-20 lbs, Material : Aluminum, Playing Level : Beginner, Strung Type : Strung Badminton",
+      "mrp": 999,
+      "bestSeller": true,
+      "category": {
+        "id": 1,
+        "categoryName": "Sports",
+        "subCategory": "Badminton"
+      },
+      "tags": [
+        "fitness",
+        "badminton",
+        "racquet",
+        "black",
+        "gold",
+        "Beginner",
+        "outdoor",
+        "home",
+        "Li-Ning",
+        "aluminium",
+        "sports"
+      ],
+      "quantity": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Sports",
+      "subCategory": [
+        "Badminton",
+        "Swimming",
+        "Table Tennis",
+        "Hockey"
+      ]
+    },
+    {
+      "id": 2,
+      "categoryName": "Clothes",
+      "subCategory": [
+        "Jeans",
+        "Shirt",
+        "Trousers"
+      ]
+    },
+    {
+      "id": 3,
+      "categoryName": "Electronics",
+      "subCategory": [
+        "Mobile",
+        "Tv",
+        "Camera"
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 3,
+        "productName": "Vinyl Dumbbells",
+        "image": "../../assets/products/db_p3.jpg",
+        "productDesc": "Set of 2 dumbbells - 5 Pounds each (2.27 KGS). Steel dumbbell with colorful vinyl exterior coating for a strong, non-slip grip",
+        "mrp": 1529,
+        "bestSeller": false,
+        "category": {
+          "id": 3,
+          "categoryName": "Strength Gears",
+          "subCategory": "Dumbbells"
+        },
+        "tags": [
+          "fitness",
+          "dumbbells",
+          "gym workouts",
+          "home workouts",
+          "home",
+          "gym",
+          "vinyl",
+          "vinyl dumbbells",
+          "steel",
+          "steel dumbbell",
+          "hexagon dumbbells",
+          "2.27Kg",
+          "2.5Kg",
+          "5Kg",
+          "strength"
+        ],
+        "quantity": 12
+      },
+      "quantity": 3,
+      "orderPlacedOn": "2021-07-07T23:06:54.282Z",
+      "id": 1
+    }
+  ]
+}

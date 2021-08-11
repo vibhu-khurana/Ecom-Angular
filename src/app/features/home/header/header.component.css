@@ -1,0 +1,32 @@
+.container__right *{
+  margin-right: 1rem;
+}
+.form-control {
+  box-shadow: 0 10px 40px 0 #B0C1D9;
+}
+.input-size-bigger{
+  width: 30rem;
+  height:3rem;
+}
+
+.color-orange{
+  color: rgb(255, 145, 0);
+}
+
+.make-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+.image-size{
+  height: 250px;
+  width: 100px;
+}
+.fas.fa-search{
+  margin-right: 123px;
+}

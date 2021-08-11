@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+a:not([href]):not([class]),
+a:not([href]):not([class]):hover {
+  width: 299px;
+}
+
+.breadcrumb li.breadcrumb-item:first-child a {
+  width: 50px;
+}

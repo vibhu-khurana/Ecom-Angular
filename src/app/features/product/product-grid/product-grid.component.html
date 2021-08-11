@@ -1,0 +1,62 @@
+<br />
+<br />
+<nav
+  style="
+    --bs-breadcrumb-divider: url(
+      &#34;data:image/svg + xml,
+      %3Csvgxmlns='http://www.w3.org/2000/svg'width='8'height='8'%3E%3Cpathd='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z'fill='currentColor'/%3E%3C/svg%3E&#34;
+    );
+  "
+  aria-label="breadcrumb"
+  *ngIf="!type"
+>
+  <ol class="breadcrumb" *ngIf="!search">
+    <li class="breadcrumb-item">
+      <a (click)="categoryRoute()">{{
+        this.paramsObject?.params?.categoryName
+      }}</a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">
+      {{ this.paramsObject?.params?.subCategory }}
+    </li>
+  </ol>
+  <ol class="breadcrumb" *ngIf="search">
+    <li class="breadcrumb-item">
+      <a (click)="homePageRoute()">{{ CONSTANTS.HOME }}</a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">
+      {{ CONSTANTS.SEARCH }}
+    </li>
+  </ol>
+</nav>
+<ng-container
+  *ngIf="count; then productScreen; else noProductScreen"
+></ng-container>
+<ng-template #productScreen>
+  <mat-grid-list cols="{{ cols }}" rowHeight="1:1">
+    <mat-grid-tile *ngFor="let product of screeenProducts"
+      ><a>
+        <mat-card class="example-card" (click)="viewProduct(product.id)">
+          <img
+            mat-card-image
+            src="{{ product.image }}"
+            alt="{{ product.productDesc }}"
+          />
+          <mat-card-content class="example-card-content">
+            <p>
+              {{ product.productName }}
+            </p>
+            <br />
+            <p>
+              <strong>{{ product.mrp | currency: "INR" }}</strong>
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </a>
+    </mat-grid-tile>
+  </mat-grid-list>
+</ng-template>
+
+<ng-template #noProductScreen>
+  <h2>{{ CONSTANTS.PRD_404 }}</h2>
+</ng-template>

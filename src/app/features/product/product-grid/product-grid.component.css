@@ -1,0 +1,23 @@
+.example-header-image {
+  background-image: url("https://material.angular.io/assets/img/examples/shiba1.jpg");
+  background-size: cover;
+}
+.example-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  height: 363px;
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 12%), 0 6px 20px 0 rgb(0 0 0 / 1%) !important;
+  padding-right: 0;
+}
+
+.example-card img {
+  max-height: 250px;
+  width: 100%;
+}
+
+.example-card-content {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,10 @@
+<div style="height: auto; width: 100%">
+  <mat-carousel timings="250ms ease-in" [autoplay]="true" color="accent" maxWidth="10" [proportion]="25" [loop]=" true"
+    [hideArrows]="false" [hideIndicators]="false" [useKeyboard]="true" [useMouseWheel]="false"
+    [maintainAspectRatio]="true">
+    <mat-carousel-slide #matCarouselSlide *ngFor="let slide of slides; let i = index" [image]="slide.image"
+      overlayColor="#00000040" [hideOverlay]="false"></mat-carousel-slide>
+  </mat-carousel>
+</div>
+<br><br>
+<product-grid type='bestselling'></product-grid>

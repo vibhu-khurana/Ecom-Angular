@@ -1,0 +1,62 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+
+    <div class="navbar-item" routerLink="/" style="cursor: pointer;">
+      <em class="fas fa-shipping-fast color-orange fa-2x"></em>
+    </div>
+
+    <a role="button" class="navbar-burger" (click)="toggleNavbar()" aria-label="menu" aria-expanded="false"
+      data-target="navbarCategory" #navbarCategory>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div id="navbarCategory" class="navbar-menu" #navMenu>
+    <div class="navbar-start">
+      <div class="navbar-item has-dropdown is-hoverable" *ngFor="let category of categories">
+        <a class="navbar-link is-arrowless" (click)='shopByCategory(category.categoryName)'>
+          {{category.categoryName}}
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" *ngFor="let subCategory of category.subCategory"
+            (click)='shopBySubCategory(category.categoryName , subCategory )'>
+            {{subCategory}}
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item container__right">
+        <p class="control has-icons-left">
+          <input class="input input-size-bigger form-control" #search type="text" [(ngModel)]="searchedKeyword"
+            (keyup)="onSearchTermChange()" placeholder="Search">
+          <span class="icon is-right">
+            <em class="fas fa-search" aria-hidden="true"></em>
+          </span>
+        </p>
+        <div></div>
+        <div></div>
+        <div class="make-flex">
+        </div>
+        <div class="profile navbar-item has-dropdown is-hoverable make-flex ">
+          <em class="fas fa-user-circle has-text-info fa-2x"></em>
+          <p>{{CONSTANTS.PROFILE.TITLE}}</p>
+          <div class="navbar-dropdown">
+            <a id='auth' class="navbar-item" *ngIf='! isLoggedIn()' routerLink="/auth" routerLinkActive='active'>
+              {{CONSTANTS.PROFILE.LOGIN}}
+            </a>
+            <a id='auth' class="navbar-item" *ngIf='isLoggedIn()' (click)='logOut()'>
+              {{CONSTANTS.PROFILE.LOGOUT}}
+            </a>
+
+          </div>
+        </div>
+        <div class="make-flex" routerLink="/quick-order" routerLinkActive='active'>
+          <em class="fas fa-shopping-cart color-orange fa-2x"></em>
+          <p> {{CONSTANTS.CART}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
